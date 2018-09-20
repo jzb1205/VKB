@@ -13,7 +13,6 @@ import VueClipboard from 'vue-clipboard2'
 
 Vue.use(ElementUI);
 
-
 Vue.use(VueClipboard)
 
 Vue.config.productionTip = false
