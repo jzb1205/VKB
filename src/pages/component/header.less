@@ -1,0 +1,87 @@
+#header {
+    width: 100%;
+    .header {
+        width: 100%;
+        .header_t {
+            width: 100%;
+            background: #575656;
+            .header_t_c {
+                width: 1100px;
+                margin: 0 auto;
+                height: 36px;
+                color: #fff;
+                line-height: 36px;
+                font-size: 12px;
+                &>a {
+                    margin-left: 10px;
+                    cursor: pointer;
+                    &:hover {
+                        color: #999;
+                    }
+                }
+            }
+        }
+        .header_b {
+            width: 100%;
+            background: #fff;
+            .header_b_c {
+                width: 1100px;
+                margin: 0 auto;
+                height: 90px;
+                overflow: hidden;
+                &>img {
+                    position: relative;
+                    top: 10px;
+                    float: right;
+                    &:nth-of-type(1) {
+                        width: 172px;
+                        height: 60px;
+                        float: left;
+                    }
+                } // &>ul{
+                //     float: right;
+                //     overflow: hidden;
+                //     li{
+                //         width: 96px;
+                //         height:90px;
+                //         float: left;
+                //         text-align: center;
+                //         color:#fff;
+                //         cursor: pointer;
+                //         img{
+                //             width:50px;
+                //             height:37px;
+                //             margin-top:15px;
+                //         }
+                //     }
+                // }
+            }
+        }
+    }
+    .nav {
+        height: 50px;
+        background: #0099ff;
+        ul {
+            width: 1100px;
+            margin: 0 auto;
+            li {
+                float: left;
+                line-height: 50px;
+                font-size: 18px;
+                font-weight: bold;
+                color: #fff;
+                padding: 0 15px;
+                cursor: pointer;
+                border-right: 2px solid #188fdf;
+                &:hover,
+                &.active {
+                    background: #188fdf;
+                    padding: 0 15px;
+                }
+                &:nth-last-of-type(1) {
+                    border-right: none;
+                }
+            }
+        }
+    }
+}

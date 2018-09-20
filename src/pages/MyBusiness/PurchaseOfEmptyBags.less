@@ -1,0 +1,242 @@
+#PurchaseOfEmptyBags {
+    .title {
+        font-size: 16px;
+        font-weight: bold;
+        color: #64bd53;
+        background: #F4F4F4;
+        padding: 10px;
+    }
+    .notice {
+        width: 820px;
+        margin: 20px;
+        background: #FFF0CE;
+        border: 1px solid #FFD5AA;
+        color: red;
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+    .step {
+        width: 840px;
+        margin: 0 auto;
+        border: 1px solid #f3f3f3;
+        background: #fff;
+        padding: 2px;
+        margin-bottom: 10px;
+        .title {
+            font-size: 16px;
+            font-weight: bold;
+            color: #64bd53;
+            background: #F4F4F4;
+            padding: 10px;
+            .input_select {
+                width: 50%;
+            }
+        }
+        .select_area {
+            margin: 20px; // overflow: hidden;
+            .s_select {
+                min-width: 600px;
+            }
+            .displayBox {
+                width: 75%;
+                float: left;
+                margin-right: 5px;
+                position: relative;
+                ul {
+                    width: 100%;
+                    position: absolute;
+                    top: 42px;
+                    z-index: 101;
+                    border-radius: 4px;
+                    border: 1px solid #f5f5f5;
+                    li {
+                        cursor: pointer;
+                        font-size: 13px;
+                        background: #fff;
+                        color: '#606266';
+                        line-height: 30px;
+                        padding: 0 20px;
+                        border-bottom: 1px solid #f5f5f5;
+                        &:hover {
+                            background-color: #f5f7fa;
+                            color: #007aff;
+                        }
+                    }
+                }
+                .displayInput {
+                    border: 1px solid #c0c4cc;
+                    padding: 0 30px;
+                    -webkit-appearance: none;
+                    background-color: #fff;
+                    background-image: none;
+                    border-radius: 4px;
+                    -webkit-box-sizing: border-box;
+                    box-sizing: border-box;
+                    color: #606266;
+                    display: inline-block;
+                    font-size: 13px;
+                    height: 40px;
+                    line-height: 40px;
+                    outline: 0;
+                    -webkit-transition: border-color .2s cubic-bezier(.645, .045, .355, 1);
+                    transition: border-color .2s cubic-bezier(.645, .045, .355, 1);
+                    width: 100%;
+                }
+            }
+        }
+        .quick_type {
+            width: 800px;
+            margin: 10px auto;
+            overflow: hidden;
+            li {
+                float: left;
+                height: 26px;
+                line-height: 26px;
+                background-color: #C7C1C1;
+                margin-right: 2px;
+                border-radius: 3px;
+                padding: 0px 4px 0px 4px;
+                color: #fff;
+                cursor: pointer;
+                &.active {
+                    background-color: #FF0000;
+                }
+            }
+        }
+        .details {
+            width: 800px;
+            margin: 10px auto;
+            color: red;
+            font-weight: bold;
+            font-size: 14px;
+        }
+        img {
+            margin: 10px 70px;
+        }
+        textarea {
+            width: 800px;
+            min-width: 800px;
+            max-width: 800px;
+            min-height: 277px;
+            margin: 10px 17px;
+            padding: 20px;
+            border: 1px solid #ccc;
+        }
+        .moduleUp {
+            width: 800px;
+            margin: 10px auto;
+            .input_select {
+                width: 200px;
+            }
+            span {
+                color: red;
+            }
+            button {
+                &:nth-of-type(1) {
+                    margin-left: 50px;
+                }
+            }
+        }
+        .weight {
+            width: 800px;
+            margin: 10px auto;
+            font-size: 14px;
+            color: #333;
+            .input_select {
+                width: 100px;
+                height: 30px;
+            }
+        }
+        .book {
+            width: 800px;
+            margin: 20px auto;
+            font-size: 14px;
+            color: #333;
+            span {
+                color: #FF0000;
+            }
+        }
+        .confirmPuechase {
+            margin: 30px auto;
+            text-align: center;
+            button {
+                font-size: 18px;
+                font-weight: bold;
+            }
+        }
+    }
+    .addAddress {
+        textarea {
+            width: 460px;
+            min-width: 460px;
+            max-width: 460px;
+            min-height: 300px;
+            border: 1px solid #ddd;
+        }
+    }
+    .downloadPop {
+        .selectM {
+            text-align: center;
+            height: 70px;
+            a {
+                padding: 9px 15px;
+                border-radius: 4px;
+                border: 1px solid #409EFF;
+                color: #409EFF;
+                margin: 0 10px 30px;
+            }
+        }
+    }
+    .displayAddr{
+        .el-dialog__body{
+            padding:10px 20px;
+        }
+        .disTitle,.disList{
+            width: 100%;
+            border:1px solid #f2f2f2;
+            li{
+                line-height:35px;
+                span{
+                    display: inline-block;
+                    text-align: center;
+                    color: #666;
+                    &:nth-of-type(1){
+                        width:50px;
+                    }
+                    &:nth-of-type(2){
+                        width:120px;
+                    }
+                    &:nth-of-type(3){
+                    	width:120px;
+                    }
+                    &:nth-of-type(4){
+                    	width:420px;
+                    }
+                    &:nth-of-type(5){
+                    	width:80px;
+                    }
+                }
+            }
+        }
+        .disTitle{
+            background:#3399ea;
+            span{
+                color:#fff!important;
+            }
+        }
+        .disList{
+            height: 240px;
+            overflow-y: scroll;
+            li{
+                border-bottom:1px solid #eee;
+            }
+        }
+        .total{
+            text-align: center;
+            width: 100%;
+            line-height: 50px;
+            color: red;
+            margin-top:10px;
+        }
+    }
+}

@@ -1,0 +1,73 @@
+#BoughtEmptyBags {
+    .title {
+        font-size: 16px;
+        font-weight: bold;
+        color: #64bd53;
+        background: #F4F4F4;
+        padding: 10px;
+    }
+    .notice {
+        width: 820px;
+        margin: 20px;
+        background: #FFF0CE;
+        border: 1px solid #FFD5AA;
+        color: red;
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+    .content {
+        width: 820px;
+        margin: 0 auto;
+        .tab {
+            border-bottom: 2px solid #f00;
+            width: 820px;
+            height: 30px;
+            li {
+                width: 120px;
+                height: 30px;
+                text-align: center;
+                line-height: 30px;
+                float: left;
+                color: #fff;
+                background-color: #c7c1c1;
+                border-radius: 5px 5px 0px 0px;
+                margin-right: 5px;
+                cursor: pointer;
+                &.active {
+                    background-color: red;
+                }
+            }
+        }
+        .condition {
+            margin: 30px 0;
+            .input_select {
+                width: 150px;
+            }
+        }
+        .list {
+            ul {
+                li {
+                    padding: 10px 0;
+                    border-bottom: 1px solid #ddd;
+                    p {
+                        text-align: left;
+                        line-height: 22px;
+                        font-weight: normal;
+                        font-size: 14px;
+                        color: #666;
+                        &:nth-last-of-type(1) {
+                            color: red;
+                        }
+                    }
+                    &:nth-of-type(1) {
+                        border-top: 1px solid #ddd;
+                    }
+                }
+            }
+        }
+        .page {
+            margin: 20px 0;
+            text-align: right;
+        }
+    }
+}

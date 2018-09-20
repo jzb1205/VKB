@@ -1,0 +1,92 @@
+#VipCenter {
+    .fTitle {
+        padding: 10px;
+        font-size: 14px;
+        span {
+            color: #64bd53;
+            font-weight: bold;
+            &.red {
+                color: #f75d39;
+            }
+        }
+    }
+    .title {
+        font-size: 16px;
+        font-weight: bold;
+        color: #64bd53;
+        background: #F4F4F4;
+        padding: 10px;
+        width: 850px;
+        margin-left: 5px;
+    }
+    .info {
+        width: 840px;
+        margin: 10px;
+        border: 1px solid #f3f3f3;
+        padding: 10px;
+        margin-bottom: 10px;
+        ul {
+            overflow: hidden;
+            line-height: 35px;
+            li {
+                span {
+                    &:nth-of-type(1) {
+                        display: inline-block;
+                        width: 120px;
+                        text-align: right;
+                        padding: 5px;
+                        background: #f5f5f5;
+                        border-bottom: 1px solid #eee;
+                        font-size: 14px;
+                        font-weight: bold;
+                    }
+                    &:nth-of-type(2) {
+                        display: inline-block;
+                        padding: 5px;
+                        font-size: 14px;
+                        margin-left: 5px;
+                        border-bottom: 1px solid #fff;
+                        color: #333;
+                    }
+                }
+            }
+        }
+    }
+    .notice {
+        background: #FFF0CE;
+        border: 1px solid #FFD5AA;
+        color: #EA5F00;
+        padding: 10px;
+        margin-bottom: 10px;
+        p {
+            text-align: center;
+            font-weight: bold;
+            color: #FF0000;
+            font-size: 24px;
+            line-height: 40px;
+            &:nth-of-type(4),
+            &:nth-of-type(5) {
+                line-height: 25px;
+                color: rgb(0, 128, 0);
+            }
+            &:nth-of-type(4) {
+                font-size: 18px;
+                margin-top: 20px;
+            }
+            &:nth-of-type(5) {
+                line-height: 25px;
+                font-size: 16px;
+                a {
+                    cursor: pointer;
+                    &:hover {
+                        text-decoration: underline;
+                    }
+                    span {
+                        color: #FFFF00;
+                        background-color: #FF0000;
+                    }
+                }
+            }
+        }
+    }
+}

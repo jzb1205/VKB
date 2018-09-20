@@ -1,0 +1,55 @@
+#appendRight {
+    position: fixed;
+    top: 25%;
+    right: 0;
+    z-index: 102;
+    .small {
+        width: 30px;
+        height: 120px;
+        position: absolute;
+        top: 140px;
+        left: -30px;
+        background: #188fdf;
+        border-radius: 4px;
+        text-align: center;
+        color: #fff;
+        font-size: 16px;
+        cursor: pointer;
+    }
+    .appendRight {
+        width: 130px;
+        height: 210px;
+        background: #188fdf;
+        border-radius: 5px;
+        overflow: hidden;
+        .big {
+            width: 120px;
+            height: 200px;
+            margin: 5px;
+            background: #fff;
+            border-radius: 5px;
+            overflow: hidden;
+            p {
+                width: 100px;
+                margin: 0 auto;
+                border-bottom: 1px solid #188fdf;
+                color: #188fdf;
+                font-size: 12px;
+                line-height: 35px;
+                text-align: left;
+                &.title {
+                    font-size: 16px;
+                    margin-top: 10px;
+                }
+                &:not([class="title"]):hover {
+                    cursor: pointer;
+                    color: orange;
+                }
+                img {
+                    position: relative;
+                    top: 8px;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,84 @@
+#BoughtCollection {
+    .title {
+        font-size: 16px;
+        font-weight: bold;
+        color: #64bd53;
+        background: #F4F4F4;
+        padding: 10px;
+    }
+    &>.notice {
+        width: 820px;
+        margin: 10px;
+        background: #FFF0CE;
+        border: 1px solid #FFD5AA;
+        color: red;
+        padding: 10px;
+        margin-bottom: 10px;
+        .one,
+        .two,
+        .three {
+            font-weight: bold;
+            color: #FF0000;
+            font-size: 14px;
+            margin: 10px;
+        }
+        .one {
+            p {
+                text-align: center;
+                line-height: 25px;
+            }
+        }
+    }
+    .list {
+        width: 840px;
+        margin: 0 auto;
+        background: #fff;
+        padding: 2px;
+        margin-bottom: 10px;
+        .tabar {
+            margin: 10px auto;
+            border-bottom: 2px solid #f00;
+            width: 840px;
+            height: 30px;
+            li {
+                width: 120px;
+                height: 30px;
+                text-align: center;
+                line-height: 30px;
+                float: left;
+                color: #fff;
+                background-color: #c7c1c1;
+                border-radius: 5px 5px 0px 0px;
+                margin-right: 5px;
+                cursor: pointer;
+                &.active {
+                    background-color: red;
+                }
+            }
+        }
+        .listA {
+            ul {
+                li {
+                    padding: 10px;
+                    border-bottom: 1px solid #ddd;
+                    p {
+                        text-align: left;
+                        line-height: 22px;
+                        font-weight: normal;
+                        font-size: 14px;
+                        color: #666;
+                        &:nth-last-of-type(1) {
+                            color: red;
+                            text-align: right;
+                        }
+                    }
+                }
+            }
+        }
+        .page {
+            width: 840px;
+            margin: 20px;
+            text-align: right;
+        }
+    }
+}
