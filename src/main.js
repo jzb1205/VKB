@@ -12,9 +12,8 @@ import serve from '../static/serve'
 import VueClipboard from 'vue-clipboard2'
 
 Vue.use(ElementUI);
-
 Vue.use(VueClipboard)
-
+//132
 Vue.config.productionTip = false
 
 Vue.prototype.$http = axios;
